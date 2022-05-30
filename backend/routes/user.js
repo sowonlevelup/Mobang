@@ -147,7 +147,7 @@ router.post("/login", async(req, res) => {
    // if(compareResult){
       const token = jwt.sign({
         id:userData.dataValues.id
-      },"ssafy",{expiresIn: "24h"});
+      },"test",{expiresIn: "24h"});
 
       console.log(token)
       return res.json({

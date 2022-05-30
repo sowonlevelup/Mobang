@@ -7,7 +7,7 @@
     mode="horizontal"
     @select="handleSelect"
   >
-    <el-menu-item index="1" @click="$router.push('/')">SSAFY BANG</el-menu-item>
+    <el-menu-item index="1" @click="$router.push('/')">MOBANG</el-menu-item>
     <el-menu-item index="2" @click="$router.push('/room')">방찾기</el-menu-item>
     <el-menu-item v-if="user.id" @click="$router.push('/post')" index="2">방 팔기</el-menu-item>
 

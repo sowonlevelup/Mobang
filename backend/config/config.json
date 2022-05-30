@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "sowonwow1!",
-    "database": "ssafy_room",
+    "password": "",
+    "database": "mobang_room",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

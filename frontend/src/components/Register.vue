@@ -3,7 +3,7 @@
     <!-- <h1>This is an about page</h1>
     <el-button type="text" @click="dialogFormVisible = true">open a Form nested Dialog</el-button> -->
 
-    <el-dialog style="width:50%; margin:0 auto;" title="SSAFY_BANG(사방 회원가입)" :visible.sync="modal.register">
+    <el-dialog style="width:50%; margin:0 auto;" title="MOBANG(사방 회원가입)" :visible.sync="modal.register">
       <el-form :model="form">
         <el-form-item label="이름" :label-width="formLabelWidth">
           <el-input v-model="form.name" autocomplete="off"></el-input>
